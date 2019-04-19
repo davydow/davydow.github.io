@@ -62,6 +62,7 @@ html {
       list-style: none;
       margin-left: -40px;
       font-size: 16px;
+      flex-wrap: wrap;
     }
 
     .section-left h2 {
@@ -174,13 +175,8 @@ html {
     body {
       min-width: 300px;
     }
-     a {
-      display: block;
-      margin: 20px auto;
-      width: 20%;
-     }
+     
 
-   }
   
 
 
