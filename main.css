@@ -61,7 +61,6 @@ html {
     .section-left ul {
       list-style: none;
       margin-left: -40px;
-      text-transform: capitalize;
       font-size: 16px;
     }
 
@@ -69,13 +68,13 @@ html {
       color: #fecc66; 
       font-weight: bold;
       background-color: #191919;
-  }
+    }
 
     h1 {
       text-transform: uppercase;
       word-spacing: 0px;
       margin: 0;
-}
+      }
 
     h2 {
       text-align: center;
@@ -119,8 +118,7 @@ html {
     }
   
     .section-right {
-     flex: 1;
-      
+     flex: 1;  
     }
 
     .section-right .wrapper {
@@ -129,40 +127,36 @@ html {
 
    .fas {
   color: #fecc66;
-}
+    }
 
-p {
+    p {
   font-size: 0.9em;
-}
+    }
 
-.ref {
+  .ref {
     display: flex;
     flex-wrap: wrap;
     padding: 0.5em;
     font-size: 0.9em;
+    }
 
-}
-
-.left-ref {
+  .left-ref {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+  }
 
 .right-ref {
-
   list-style: none;
   margin: 0;
   padding-right: 1em;
-
-}
+  }
 
 .edu {
     display: flex;
     padding: 0.5em;
     font-size: 0.9em; 
-}
-
+  }
 
 .left-edu {
   list-style: none;
@@ -174,7 +168,7 @@ p {
   list-style: none;
   margin: 0;
   padding-right: 1em;
-}
+  }
 
   @media  all and (max-width: 768px) {
     body {
